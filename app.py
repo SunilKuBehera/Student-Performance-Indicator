@@ -45,8 +45,9 @@ if __name__ == '__main__':
     # The URL for your Flask app
     url = "http://127.0.0.1:5000/"
 
-    # Open the URL in a new browser tab
-    webbrowser.open_new_tab(url)
+    # Open the URL in a new browser tab only in the main process
+    if os.environ.get('WERKZEUG_RUN_MAIN') != 'true':
+        webbrowser.open_new_tab(url)
 
     # Run the Flask app
     app.run(host="0.0.0.0", debug=True)
