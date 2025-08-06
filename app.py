@@ -8,13 +8,10 @@ from src.exception import CustomException
 from src.utils import load_object
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
-# Tell Flask where to find the templates
 app = Flask(__name__, template_folder='templates')
 
-# --- Routes ---
 @app.route('/')
 def home():
-    # This route will render your home.html file
     return render_template('home.html', results=None)
 
 @app.route('/predictdata', methods=['GET', 'POST'])
