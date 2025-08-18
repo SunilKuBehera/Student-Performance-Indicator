@@ -21,7 +21,7 @@ The primary objective of this project is to analyze how various factors affect s
 - Lunch type
 - Test preparation course completion
 
-The project aims to build a regression model to predict a student's average score based on these factors.
+The project aims to build a regression model to predict a student's math score based on these factors.
 
 ## Project Structure
 The project is organized into the following structure:
