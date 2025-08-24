@@ -1,0 +1,12 @@
+python-3.10.12
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+scikit-learn==1.5.1
+seaborn==0.13.2
+requests==2.32.3
+flask==3.0.3
+plotly==5.23.0
+xgboost==2.1.1
+catboost==1.2.7
+gunicorn==23.0.0
