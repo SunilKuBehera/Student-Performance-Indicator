@@ -1,4 +1,4 @@
-# Student Performance Indicator
+# Student Performance Indicator | [LINK](https://student-performance-indicator-np2e.onrender.com)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,7 +11,8 @@
 - [How to Use](#how-to-use)
 
 ## Project Overview
-This project follows the complete lifecycle of a data science project, from data collection and exploratory data analysis to model training and evaluation. The goal is to understand the factors influencing student test scores and build a predictive model to estimate student performance.
+- This project follows the complete lifecycle of a data science project, from data collection and exploratory data analysis to model training and evaluation. The goal is to understand the factors influencing student test scores and build a predictive model to estimate student performance. 
+
 
 ## Problem Statement
 The primary objective of this project is to analyze how various factors affect student performance in tests. The key variables considered are:
@@ -20,8 +21,10 @@ The primary objective of this project is to analyze how various factors affect s
 - Parental level of education
 - Lunch type
 - Test preparation course completion
+- Reading score
+- Writing score
 
-The project aims to build a regression model to predict a student's math score based on these factors.
+The project aims to build a regression model to predict a student's `math score` based on these factors.
 
 ## Project Structure
 The project is organized into the following structure:
