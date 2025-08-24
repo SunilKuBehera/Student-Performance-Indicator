@@ -14,7 +14,7 @@ def get_requirements(file_path: str) -> list[str] :
             requirements.remove("-e.")
     return requirements
 setup(
-    name="Data-Science-Projects",
+    name="Student-Performance-Indicator",
     version="0.0.1",
     author="SunilKuBehera",
     author_email="sunil050@example.com",

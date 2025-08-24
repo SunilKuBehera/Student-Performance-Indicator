@@ -8,4 +8,5 @@ flask
 plotly
 xgboost
 catboost
--e .
+gunicorn
+-e.
