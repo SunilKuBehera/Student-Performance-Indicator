@@ -8,4 +8,4 @@ flask
 plotly
 xgboost
 catboost
--e.
+-e .
